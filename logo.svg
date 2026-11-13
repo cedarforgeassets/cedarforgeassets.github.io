@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">Cedarforge Assets tree logo</title>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2a23"/>
+      <stop offset="1" stop-color="#0c1511"/>
+    </linearGradient>
+    <linearGradient id="needles" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#82e0a6"/>
+      <stop offset="1" stop-color="#42b976"/>
+    </linearGradient>
+    <linearGradient id="trunk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffb45c"/>
+      <stop offset="1" stop-color="#f07831"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="48" fill="url(#background)"/>
+  <g fill="url(#needles)">
+    <rect x="98" y="60" width="55" height="12" rx="6"/>
+    <rect x="80" y="78" width="105" height="13" rx="6.5"/>
+    <rect x="80" y="95" width="85" height="13" rx="6.5"/>
+    <rect x="50" y="112" width="159" height="13" rx="6.5"/>
+    <rect x="60" y="130" width="130" height="13" rx="6.5"/>
+    <rect x="30" y="147" width="196" height="13" rx="6.5"/>
+  </g>
+  <rect x="120" y="165" width="16" height="32" rx="4" fill="url(#trunk)"/>
+</svg>
